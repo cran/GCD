@@ -1,7 +1,7 @@
-155fd771ff7889370e8090448f956739 *DESCRIPTION
-5e557fd1e9f370378a8c5af0e8364bb5 *NAMESPACE
-5f0c73a3d8ab1fd8f278c7a255117d4e *NEWS
-98d113ac755a6f2f6a3fc2d90f9f5ef0 *R/potveg.R
+ce665af391f650333d70289acffee6a5 *DESCRIPTION
+76815ec359e993e175335fcffddf63c6 *NAMESPACE
+66d28503f4fddb9ad43856f01c0a0c6f *NEWS
+5cdfef7afd1c42a202f230feb79d6e0a *R/GCD-package.R
 06fc0771c9db9754ea791c7d5239b183 *data/PNV_L12.rda
 eb2f3940b68b933cdd71db165d6fa30e *data/PNV_RF99.rda
 e895428d581ea69001664a84145826b8 *data/datalist
@@ -9,9 +9,7 @@ b50e8bc210e57588ed762dc7ce02666b *data/paleofiredata.rda
 a761467b1d844c320665695477cdbba5 *data/paleofiresites.rda
 9cc508e83a1b309dbd0cacf95c663271 *data/pub.rda
 a7b1e328d2fa9fddcbb7b0c57889e696 *data/pub_key.rda
-eb26e551c9208d2ff4ccff3b11fe0810 *man/GCD-internal.Rd
-b53ce8bdc0024afe49b69bb5708d6034 *man/GCD-package.Rd
-3380f16a4c04bea87ac02abbdcee1230 *man/paleofiredata.Rd
-aad4ee857da5e99a9fa28565088158e1 *man/paleofiresites.Rd
-1b3dcb679f8f77f2824fbb64a23ef208 *man/plot.potveg.Rd
-010d60ef38c087fdc0aadd07e04e1c50 *man/potveg.Rd
+ded7f2aebe12e63b6f70490f29cfd2ba *man/GCD-internal.Rd
+962f5503adc45e813ce9bf618227c708 *man/GCD-package.Rd
+ffd8fef685de16ffa1794ced299920a6 *man/paleofiredata.Rd
+6e87fcf65b6e2368ee2069c9a0ee09fe *man/paleofiresites.Rd
