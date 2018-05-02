@@ -90,7 +90,7 @@ NULL
 #' @aliases GCD GCD-package
 #' @docType package
 #' @section Author(s): Global Paleofire Working Group <paleofire gmail.com>
-#' @seealso \url{http://gpwg.org}
+#' @seealso \url{http://paleofire.org}
 #' @references Power, M., J. Marlon, P. Bartlein, and S. Harrison. 2010. Fire
 #' history and the Global Charcoal Database: a new tool for hypothesis testing
 #' and data exploration. Palaeogeography, Palaeoclimatology, Palaeoecology
@@ -121,7 +121,7 @@ NULL
 #' Internal GCD Data
 #' 
 #' 
-#' @aliases Internal PNV_L12 PNV_RF99  pub_key
+#' @aliases Internal PNV_L12 PNV_RF99  pub_key release
 #' @name GCD-internal
 NULL
 
@@ -194,6 +194,9 @@ NULL
 #'   \item{\code{qtype}}{a factor with levels \code{CONC} \code{OTHE} \code{INFL} \code{C0P0} \code{NOTK} \code{SOIL}}
 #'   \item{\code{l12}}{a numeric vector}
 #'   \item{\code{rf99}}{a numeric vector}
+#'   \item{\code{gcd_version}}{main GCD releases}
+#'   \item{\code{num_version}}{a numeric vector: version number 401 meaning 4.0.1}
+#'   \item{\code{update_date}}{date of data update in the GCD}
 #' }
 #' 
 #' @references Ramankutty, N., and J.A. Foley (1999). Estimating historical
