@@ -95,7 +95,11 @@ NULL
 #' history and the Global Charcoal Database: a new tool for hypothesis testing
 #' and data exploration. Palaeogeography, Palaeoclimatology, Palaeoecology
 #' 291:52-59.
-#' @keywords charcoal, fire, global, paleo sediments,
+#' @concept  fire 
+#' @concept global 
+#' @concept charcoal 
+#' @concept sediments 
+#' @concept paleo
 #' @examples
 #' 
 #' rm(list=ls())
@@ -212,5 +216,69 @@ NULL
 #' 
 NULL
 
+#' Date table
+#' 
+#' Table with the dating information contained in GCD
+#' 
+#' 
+#' @name date
+#' @docType data
+#' @format A data frame with 4872 observations on the following 8 variables.
+#' \describe{ \item{ID_SITE}{a numeric vector}
+#' \item{DATE_LAB_NUMBER}{a factor with many levels}
+#' \item{DEPTH}{a numeric vector} \item{TICKNESS}{a numeric
+#' vector} \item{AGE}{a numeric vector} \item{ERROR}{a numeric
+#' vector} \item{ID_DATE_TYPE}{a numeric vector}
+#' \item{ID_MAT_DATED}{a factor with levels} }
+#' obtained ~~
+#' @keywords datasets
+#' @examples
+#' 
+#' data(date)
+#' ## maybe str(date) ; plot(date) ...
+#' 
+NULL
 
 
+
+
+#' Material Dated
+#' 
+#' 
+#' @name mat_dated
+#' @docType data
+#' @format A data frame with 23 observations on the following 4 variables.
+#' \describe{ \item{ID_MAT_DATED}{a numeric vector}
+#' \item{MAT_DATED_STANDARD_LEVEL}{a character vector}
+#' \item{MAT_DATED_TYPE}{a character vector}
+#' \item{MAT_DATED_HIGH_LEVEL}{a character vector} }
+#' obtained ~~
+#' @keywords datasets
+#' @examples
+#' 
+#' data(mat_dated)
+#' ## maybe str(mat_dated) ; plot(mat_dated) ...
+#' 
+NULL
+
+
+
+#' Type of dates in date.rda
+#' 
+#' 
+#' 
+#' @name date_type
+#' @docType data
+#' @format A data frame with 31 observations on the following 4 variables.
+#' \describe{ \item{ID_DATE_TYPE}{a numeric vector}
+#' \item{DATE_TYPE_CODE}{a character vector}
+#' \item{DATE_TYPE_NAME}{a character vector}
+#' \item{DATE_TYPE_NUMBER}{a numeric vector} }
+#' obtained ~~
+#' @keywords datasets
+#' @examples
+#' 
+#' data(date_type)
+#' ## maybe str(date_type) ; plot(date_type) ...
+#' 
+NULL

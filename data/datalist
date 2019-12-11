@@ -2,6 +2,9 @@ PNV_L12
 PNV_RF99
 charcoal_methods
 charcoal_units
+date
+date_type
+mat_dated
 paleofiredata
 paleofiresites
 pub
