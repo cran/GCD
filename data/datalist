@@ -1,12 +1,16 @@
 PNV_L12
 PNV_RF99
+basin_size
 charcoal_methods
 charcoal_units
 date
 date_type
+depo_context
+lands_desc
 mat_dated
 paleofiredata
 paleofiresites
 pub
 pub_key
 release
+site_type
